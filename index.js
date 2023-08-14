@@ -1,2 +1,5 @@
-const NombreUsuario = prompt('Ingrese su nombre')
-alert(`Hola ${NombreUsuario}`)
+
+
+document.querySelector('#mostrarnombre').onclick = function(){
+    NombreUsuario.className = 'mostrar'
+}
